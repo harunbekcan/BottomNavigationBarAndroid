@@ -10,4 +10,5 @@ class FavoritesFragment : BaseFragment<FragmentFavoritesBinding>() {
     override fun getLayoutId(): Int = R.layout.fragment_favorites
 
     override fun prepareView(savedInstanceState: Bundle?) {}
+
 }

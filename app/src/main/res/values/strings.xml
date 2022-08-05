@@ -5,4 +5,6 @@
     <string name="home_page">Home Page</string>
     <string name="favorites_page">Favorites Page</string>
     <string name="profile_page">Profile Page</string>
+    <string name="go_to_favorites_page">Go To Favorites Page</string>
+    <string name="go_to_profile_page">Go To Profile Page</string>
 </resources>
