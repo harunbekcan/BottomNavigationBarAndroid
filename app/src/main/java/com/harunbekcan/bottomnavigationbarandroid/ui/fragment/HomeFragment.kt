@@ -17,11 +17,11 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     private fun initListener(){
         binding.goToFavoritesPageButton.setOnClickListener {
-            (requireActivity() as? MainActivity)?.findViewById<BottomNavigationView>(R.id.bottomNavigation)?.selectedItemId =
+            (requireActivity() as? MainActivity)?.findViewById<BottomNavigationView>(R.id.bottomNavigationView)?.selectedItemId =
                 R.id.nav_favorite
         }
         binding.goToProfilePageButton.setOnClickListener {
-            (requireActivity() as? MainActivity)?.findViewById<BottomNavigationView>(R.id.bottomNavigation)?.selectedItemId = R.id.nav_profile
+            (requireActivity() as? MainActivity)?.findViewById<BottomNavigationView>(R.id.bottomNavigationView)?.selectedItemId = R.id.nav_profile
         }
     }
 }
